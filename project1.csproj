@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4EC15361-99B2-4714-A66A-4D1F09E2F9D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>project1</RootNamespace>
+    <AssemblyName>project1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutus.Designer.cs">
+      <DependentUpon>aboutus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bansari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansari.Designer.cs">
+      <DependentUpon>bansari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bill.Designer.cs">
+      <DependentUpon>bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="changepass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changepass.Designer.cs">
+      <DependentUpon>changepass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="company.Designer.cs">
+      <DependentUpon>company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="company_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="company_report.Designer.cs">
+      <DependentUpon>company_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer.Designer.cs">
+      <DependentUpon>customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customer_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer_report.Designer.cs">
+      <DependentUpon>customer_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dhruvi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dhruvi.Designer.cs">
+      <DependentUpon>dhruvi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mitva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mitva.Designer.cs">
+      <DependentUpon>mitva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pooja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pooja.Designer.cs">
+      <DependentUpon>pooja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="product.Designer.cs">
+      <DependentUpon>product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="info.Designer.cs">
+      <DependentUpon>info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="product_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="product_report.Designer.cs">
+      <DependentUpon>product_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdi.Designer.cs">
+      <DependentUpon>mdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchase.Designer.cs">
+      <DependentUpon>purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="purchase_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchase_report.Designer.cs">
+      <DependentUpon>purchase_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales.Designer.cs">
+      <DependentUpon>sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sales_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales_report.Designer.cs">
+      <DependentUpon>sales_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sales_return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales_return.Designer.cs">
+      <DependentUpon>sales_return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sales_return_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales_return_report.Designer.cs">
+      <DependentUpon>sales_return_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splash.Designer.cs">
+      <DependentUpon>splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stock.Designer.cs">
+      <DependentUpon>stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stock_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stock_report.Designer.cs">
+      <DependentUpon>stock_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome.Designer.cs">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="aboutus.resx">
+      <DependentUpon>aboutus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bansari.resx">
+      <DependentUpon>bansari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bill.resx">
+      <DependentUpon>bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changepass.resx">
+      <DependentUpon>changepass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="company.resx">
+      <DependentUpon>company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="company_report.resx">
+      <DependentUpon>company_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer.resx">
+      <DependentUpon>customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer_report.resx">
+      <DependentUpon>customer_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dhruvi.resx">
+      <DependentUpon>dhruvi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="info.resx">
+      <DependentUpon>info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mitva.resx">
+      <DependentUpon>mitva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pooja.resx">
+      <DependentUpon>pooja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="product.resx">
+      <DependentUpon>product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="product_report.resx">
+      <DependentUpon>product_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdi.resx">
+      <DependentUpon>mdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchase.resx">
+      <DependentUpon>purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchase_report.resx">
+      <DependentUpon>purchase_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales.resx">
+      <DependentUpon>sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales_report.resx">
+      <DependentUpon>sales_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales_return.resx">
+      <DependentUpon>sales_return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales_return_report.resx">
+      <DependentUpon>sales_return_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splash.resx">
+      <DependentUpon>splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="stock.resx">
+      <DependentUpon>stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stock_report.resx">
+      <DependentUpon>stock_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcome.resx">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20240907-WA0004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\we.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1b36a6b6db58196a45e3141e39b5b52a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20240906-WA0037.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20240908-WA0014.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20240908-WA00141.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20240908-WA00142.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20240908-WA00143.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cmp4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b81.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxCrystal">
+      <Guid>{00025600-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Crystal">
+      <Guid>{00025600-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ba.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
