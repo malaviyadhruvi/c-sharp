@@ -12,14 +12,14 @@ The project is being developed step by step, and new features will be added and 
 
 * **C#**
 * **.NET**
-* **MySQL**
-* **Visual Studio**
+* **Microsoft Access**
+* **Visual Studio Express**
 * **Git**
 * **GitHub**
 
 ## 🗄️ Database
 
-**MySQL** is used as the database for storing and managing application data.
+**Microsoft Access** is used as the database for storing and managing application data.
 
 The database will contain information related to:
 
@@ -107,27 +107,6 @@ Reports can be generated for:
 * Sales Return
 * Stock
 
-## 📂 Project Structure
-
-The project structure will be updated as development progresses.
-
-```text
-Dry-Fruits-Management-System/
-│
-├── Models/
-├── Controllers/
-├── Views/
-├── Database/
-├── Services/
-├── wwwroot/
-│
-├── Program.cs
-├── appsettings.json
-├── *.csproj
-├── .gitignore
-└── README.md
-```
-
 ## 🎯 Project Objectives
 
 * Reduce manual data management
@@ -142,24 +121,6 @@ Dry-Fruits-Management-System/
 ## 🚧 Development Status
 
 This project is currently **under development**.
-
-### Progress
-
-* [x] Project idea finalized
-* [x] GitHub repository created
-* [ ] .NET project setup
-* [ ] MySQL database setup
-* [ ] Login module
-* [ ] Company management
-* [ ] Customer management
-* [ ] Product management
-* [ ] Purchase management
-* [ ] Sales management
-* [ ] Stock management
-* [ ] Return management
-* [ ] Reports
-* [ ] Testing
-* [ ] Final documentation
 
 ## 📚 Project Documentation
 
@@ -177,4 +138,4 @@ The project documentation contains the system analysis and design, including:
 * Screen layouts
 * Testing and test cases
 
-⭐ **Dry Fruits Management System — C#/.NET + MySQL**
+⭐ **Dry Fruits Management System — C#/.NET + Microsoft Access**
